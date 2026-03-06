@@ -1,3 +1,7 @@
 "name","description","status","PI","biometric_lead","date_added","date_due","date_updated","resources","log_filepath"
 "Horn Morphometrics","Analysis of horn growth measurement data of Dall's sheep from 2016-2024","active","Brad Wendling","aebishop",2026-03-05,NA,2026-03-05,"C:/users/aebishop/Documents/Projects/Horn_Morphometric","project_logs/Horn Morphometrics.txt"
+<<<<<<< HEAD
 "Sexual Segregation Paper","Simulation based research into effects of sexual segregation in caribou on composition estimates",NA,"Andrew Bishop","aebishop",2026-03-05,2026-12-31,2026-03-05,"https://github.com/ADF-G-Wildlife-Conservation-Region-III/caribouMgmt","project_logs/Sexual Segregation Paper.txt"
+=======
+"McGrath moose research","Analysis of moose data from 19D to evaluate predator control program. Abundance/density estimates and calf survival analysis.","active","Danny Caudill","edgallenberg",2026-03-05,NA,2026-03-05,"'EMMA_moose_preliminary' github repository, 'CalfSurv19D' github repository","project_logs/McGrath moose research.txt"
+>>>>>>> 854200fe0de361d5b3947631745835e1080c4293
