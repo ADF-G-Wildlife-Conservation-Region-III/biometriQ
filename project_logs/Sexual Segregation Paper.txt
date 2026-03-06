@@ -1,0 +1,6 @@
+2026-03-05: aebishop added project Sexual Segregation Paper to queue.
+--- biometric_lead = aebishop
+--- description = Simulation based research into effects of sexual segregation in caribou on composition estimates
+--- PI = Andrew Bishop
+--- date_due = 2026-12-31
+--- resources = https://github.com/ADF-G-Wildlife-Conservation-Region-III/caribouMgmt
