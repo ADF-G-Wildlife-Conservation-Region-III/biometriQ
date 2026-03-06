@@ -4,3 +4,5 @@
 --- PI = Andrew Bishop
 --- date_due = 2026-12-31
 --- resources = https://github.com/ADF-G-Wildlife-Conservation-Region-III/caribouMgmt
+2026-03-05: aebishop updated project Sexual Segregation Paper.
+--- status updated: "NA" -- changed to -- "waiting"
