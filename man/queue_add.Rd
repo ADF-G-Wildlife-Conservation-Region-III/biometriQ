@@ -6,17 +6,40 @@
 \usage{
 queue_add(
   name,
+  description = NULL,
+  status = NULL,
+  status_details = NULL,
+  PI = NULL,
+  biometric_lead = Sys.getenv("USERNAME"),
+  date_due = NULL,
+  resources = NULL,
   date_added = Sys.Date(),
-  log_filepath = NULL,
-  biometric_lead = NULL,
   user = Sys.getenv("USERNAME"),
-  ...
+  queue_dir = "S:/biometric/"
 )
 }
 \arguments{
-\item{name}{The name of the project to be added to the queue}
+\item{name}{The name of the project to be updated in the queue}
 
-\item{...}{Any additional fields to be filled out}
+\item{description}{A brief description of the project (optional)}
+
+\item{status}{The current status of the project, e.g. 'waiting', 'active', or 'finished'}
+
+\item{status_details}{Additional details regarding the status (optional)}
+
+\item{PI}{The principal investigator for the project (optional)}
+
+\item{biometric_lead}{The lead biometrician on the project}
+
+\item{date_due}{The date by which the project is to be completed (optional)}
+
+\item{resources}{The directory(s) containing resources such as code, data, and papers pertaining to the project}
+
+\item{date_added}{The date the project was added to the biometric queue}
+
+\item{user}{The user making changes to the queue}
+
+\item{queue_dir}{The directory containing the queue.rds file}
 }
 \description{
 queue_add
@@ -24,7 +47,6 @@ queue_add
 \examples{
 queue_add('test',
           description = 'A description goes here',
-          date_due = as.Date('1992-09-26'),
-          something_else = "This doesn't work!")
+          date_due = as.Date('1992-09-26'))
 
 }

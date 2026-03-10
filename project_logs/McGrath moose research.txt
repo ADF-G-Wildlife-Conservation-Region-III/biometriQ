@@ -1,9 +1,0 @@
-2026-03-05: edgallenberg added project McGrath moose research to queue.
---- biometric_lead = edgallenberg
---- description = Analysis of moose data from 19D to evaluate predator control program. Abundance/density estimates and calf survival analysis.
---- date_due = NA
-2026-03-05: edgallenberg updated project McGrath moose research.
---- PI updated: "NA" -- changed to -- "Danny Caudill"
---- resources updated: "NA" -- changed to -- "'EMMA_moose_preliminary' github repository, 'CalfSurv19D' github repository"
-2026-03-05: edgallenberg updated project McGrath moose research.
---- status updated: "NA" -- changed to -- "active"

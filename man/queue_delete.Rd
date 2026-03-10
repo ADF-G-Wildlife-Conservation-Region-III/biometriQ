@@ -4,16 +4,18 @@
 \alias{queue_delete}
 \title{queue_delete}
 \usage{
-queue_delete(name, user = Sys.getenv("USERNAME"))
+queue_delete(name, user = Sys.getenv("USERNAME"), queue_dir = "S:/biometric/")
 }
 \arguments{
 \item{name}{The project to be permanently deleted from the queue}
 
-\item{user}{}
+\item{user}{The name of the user making the deletion}
+
+\item{queue_dir}{The directory containing the queue.rds file}
 }
 \description{
 queue_delete
 }
 \examples{
-queue_delete('test')
+queue_delete(name = 'test')
 }

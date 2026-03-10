@@ -1,7 +1,0 @@
-2026-03-05: aebishop added project Horn Morphometrics to queue.
---- biometric_lead = aebishop
---- PI = Brad Wendling
---- description = Analysis of horn growth measurement data of Dall's sheep from 2016-2024
---- status = active
-2026-03-05: aebishop updated project Horn Morphometrics.
---- resources updated: "NA" -- changed to -- "C:/users/aebishop/Documents/Projects/Horn_Morphometric"

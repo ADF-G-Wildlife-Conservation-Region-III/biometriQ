@@ -4,7 +4,10 @@
 \alias{queue_load}
 \title{queue_load}
 \usage{
-queue_load()
+queue_load(queue_dir = "S:/biometric/")
+}
+\arguments{
+\item{queue_dir}{The directory containing the queue.rds file}
 }
 \value{
 The current biometric queue as a data frame
